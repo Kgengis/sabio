@@ -31,7 +31,7 @@
 
     <div class="container">
         <div class="card-deck">
-            <div class="card shadow p-3 mb-5 rounded target-element">
+            <div class="card shadow p-3 mb-5 rounded target-element" style="background-color: rgb(72, 99, 187);">
                 <div class="card-body">This elements background should be <code>rgb(72, 99, 187)</code></div>
             </div>
         </div>
@@ -60,7 +60,7 @@
 
         var regular = function ()
         {
-            this.candidates = [];
+            this.candidates = [2,4];
         }
 
         var otherBootcamp = new regular();
@@ -76,7 +76,8 @@
         var msg = "hi there";
         var msg2 = msg;
         var msg3 = sabioBootcamp;
-
+        var you = new AwesomeDeveloper("superDev");
+        sabioBootcamp.candidates.push(you);
         //sabioBootcamp.candidates.push(you);
     </script>
     <!-- 🛑 Do Not Write Any Code Below here -->
