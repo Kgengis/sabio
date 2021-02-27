@@ -52,19 +52,12 @@
 
             return aCar.transmission;
         }
-        function addMakeModel(newMake, newModel) {
-            function addMake(newMake){
-            aCar.make = newMake;
+        function addMakeModel(msg1, msg2) {
+           
+           aCar = {model:this.msg2,
+                    make:this.msg1};
+           return aCar;
 
-            return aCar.make;
-
-        }
-        function addModel(newModel) {
-            aCar.model = newModel;
-
-            return aCar.model;
-            
-        }
         }
 
         
